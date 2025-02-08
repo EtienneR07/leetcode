@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Target ES6 for modern JavaScript syntax
+    "module": "commonjs", // Use CommonJS module system (for Node.js)
+    "moduleResolution": "node", // Ensure Node.js module resolution
+    "esModuleInterop": true, // Allow compatibility with ES module imports
+    "skipLibCheck": true, // Speed up compilation by skipping library checks
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "easy/*.ts" // Include your specific TypeScript file or source directory
+  ]
+}

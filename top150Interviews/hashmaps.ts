@@ -32,4 +32,25 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
     return valid;
 };
 
+function longestConsecutive(nums: number[]): number {
+    var set = new Set(nums);
+
+    var longest = 0;
+    for (let num of set) {
+        if (!set.has(num - 1)) {
+            var localCount = 1;
+            var j = num + 1;
+            while (set.has(j)) {
+                console.log(j)
+                j++;
+                localCount++;
+            }
+            if (localCount > longest) longest = localCount;
+        }
+    }
+
+    return longest;
+};
+
 canConstruct("aa", "aab");
+longestConsecutive([100, 4, 200, 1, 3, 2]);

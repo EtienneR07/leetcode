@@ -1,3 +1,5 @@
+using System.Numerics;
+
 public class TwoPointersProblems
 {
     public bool IsSubsequence(string s, string t)
@@ -36,6 +38,58 @@ public class TwoPointersProblems
 
     public int MaxArea(int[] height)
     {
-        return 0;
+        var p_start = 0;
+        var p_end = height.Length - 1;
+        var biggestArea = 0;
+
+        while (p_start < p_end)
+        {
+            var s_value = height[p_start];
+            var e_value = height[p_end];
+
+            var x = p_end - p_start;
+            var y = s_value > e_value ? e_value : s_value;
+            if (x * y > biggestArea) biggestArea = x * y;
+
+            if (s_value > e_value)
+            {
+                p_end--;
+            }
+            else
+            {
+                p_start++;
+            }
+        }
+
+        return biggestArea;
+    }
+
+    //TODO: WIP
+    public IList<IList<int>> ThreeSum(int[] nums)
+    {
+        var result = new List<IList<int>>();
+        var frequencyDict = nums
+            .GroupBy(x => x)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        for (int i = 0; i < nums.Length; i++)
+        {
+            var expectedSum = 0 - nums[i];
+            for (int j = i + 1; j < nums.Length; j++)
+            {
+                var toLook = expectedSum - nums[j];
+
+                if (frequencyDict.TryGetValue(toLook, out int value))
+                {
+                    if (value == nums[i] && value < 2) continue;
+                    if (value == nums[j] && value < 2) continue;
+                    if (value == nums[j] && value == nums[i] && value < 3) continue;
+
+                    result.Add(new List<int> { nums[i], nums[j], toLook });
+                }
+            }
+        }
+
+        return result;
     }
 }

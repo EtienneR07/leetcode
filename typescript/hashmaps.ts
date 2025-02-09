@@ -4,14 +4,10 @@ function canConstruct(ransomNote: string, magazine: string): boolean {
         if (hashMap.has(char)) {
             var count: number = hashMap.get(char);
             hashMap.set(char, count + 1);
-            console.log(hashMap);
         } else {
             hashMap.set(char, 1);
-            console.log(hashMap);
         }
     }
-
-    console.log(hashMap);
 
     var valid = true;
     for (const char of ransomNote) {
@@ -41,7 +37,6 @@ function longestConsecutive(nums: number[]): number {
             var localCount = 1;
             var j = num + 1;
             while (set.has(j)) {
-                console.log(j)
                 j++;
                 localCount++;
             }

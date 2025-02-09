@@ -1,0 +1,15 @@
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\bin\Debug\net7.0\leetCodeConsole.exe
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\bin\Debug\net7.0\leetCodeConsole.deps.json
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\bin\Debug\net7.0\leetCodeConsole.runtimeconfig.json
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\bin\Debug\net7.0\leetCodeConsole.dll
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\bin\Debug\net7.0\leetCodeConsole.pdb
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.csproj.AssemblyReference.cache
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.AssemblyInfoInputs.cache
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.AssemblyInfo.cs
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.csproj.CoreCompileInputs.cache
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.dll
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\refint\leetCodeConsole.dll
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.pdb
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\leetCodeConsole.genruntimeconfig.cache
+C:\Users\etien\Documents\PersonalProjects\leetCode\c#\leetCodeConsole\obj\Debug\net7.0\ref\leetCodeConsole.dll

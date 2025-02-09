@@ -1,6 +1,5 @@
 function isNumberPalindrome(x: number): boolean {
     var str = x.toString();
-    console.log(str)
     var valid = true;
 
     var end_p = str.length - 1;

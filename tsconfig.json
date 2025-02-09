@@ -8,6 +8,6 @@
     "forceConsistentCasingInFileNames": true
   },
   "include": [
-    "top150Interviews/*.ts" // Include your specific TypeScript file or source directory
+    "typescript/*.ts" // Include your specific TypeScript file or source directory
   ]
 }
